@@ -1,0 +1,37 @@
+
+  .form-payment{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgba(133, 214, 228, 0.300);
+    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+
+
+
+  }
+
+  .form-signin input[type="email"] {
+    margin-bottom: 5px;
+    border-color: transparent;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-color: transparent;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
