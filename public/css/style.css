@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.full-page {
+    height: auto;
+    width: 100%;
+    background-color: #050D2C;
+    background-image: url('/image/Layer0.png');
+    background-size: cover;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,39 @@
+.button{
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    color: white;
+    width: 104px;
+    height: 45px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin-left: -200px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.button1{
+    background-color: #F7BA07;
+}
+
+.home1{
+    font-size: 24px;
+}
+
+.log-btn1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 110px;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    }
+
+.log-btn2{
+    background-color: #F7BA07;
+    background-size: cover;
+}

@@ -1,0 +1,48 @@
+.posts-event{
+
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.pst-1{
+font-family: 'Poppins', sans-serif;
+color: white;
+width: 120px;
+font-weight: 600;
+font-size: 15px;
+border-radius: 10px;
+font-size: 20px;
+}
+
+.pst-2{
+    background-color: #F7BA07;
+    background-size: cover;
+}
+
+.btn-cart{
+
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.pst-1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 120px;
+    font-weight: 600;
+    font-size: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 20px;
+    }
+
+    .pst-2{
+        background-color: #F7BA07;
+        background-size: cover;
+    }
