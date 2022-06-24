@@ -14,11 +14,11 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   final storage = new FlutterSecureStorage();
-  String? _userToken;
+  var _userToken;
   @override
   void initState() {
     super.initState();
-    bacaToken();
+    _userToken = bacaToken();
     readToken();
   }
 
@@ -37,12 +37,9 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    bacaToken().then((value) {
-      _userToken = value;
-    });
     return Scaffold(
       appBar: AppBar(
-        title: Text('Tubes ABP Kelompok 6'),
+        title: Text('Me-Lali'),
       ),
       body: Center(
         child: Text('Home Screen'),
@@ -101,6 +98,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   title: Text('Tickets'),
                   leading: Icon(Icons.temple_buddhist),
                   onTap: () {
+                    print(_userToken!);
                     Navigator.push(
                         context,
                         MaterialPageRoute(

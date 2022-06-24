@@ -91,8 +91,8 @@ Widget buildTickets(List<Tickets> tickets) => ListView.builder(
         final ticket = tickets[index];
         return Card(
           child: ListTile(
-            title: Text(ticket.name),
-            subtitle: Text(ticket.qr_code),
+            title: Text('Guest Name : ' + ticket.name),
+            subtitle: Text('Ticket Code: ' + ticket.qr_code),
           ),
         );
       },
